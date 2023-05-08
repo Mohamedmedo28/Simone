@@ -1,0 +1,429 @@
+body{
+    /* height: 5452px; */
+    font-family: "Poppins", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    
+   position: fixed;
+   width: 100%;
+    
+}
+.navbar .container{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    color: white;
+}
+.navbar .logo{
+    
+    width: 30%;
+   display: flex;
+   align-items: center;
+}
+.navbar .container .logo h3{
+    font-size: 40;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+   
+    justify-content: center;
+}
+ul li{
+    margin: 15px;
+}
+.navbar .navs{
+    
+   width: 70%;
+
+}
+.navbar .container .navs .li1{
+    color: #20c997;
+
+}
+.navbar .container .navs li:hover{
+    color: #20c997;
+
+}
+
+
+/* home */
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image:url(../intro-bg.jpg) ;
+    background-position: center center;
+    background-size: cover ; 
+
+}
+.home .containerr{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+   
+    
+}
+.home .containerr .btn{
+    color: #20c997;
+    border-color: #20c997;
+    padding: 0.8rem 2.6rem;
+}
+.home .containerr p{
+
+    font-size:25;
+}
+.home .containerr h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.home .containerr h1{
+    font-weight: 600;
+    font-size: 60;
+}
+.home .containerr h1::after{
+    content: "";
+    animation: typing 2s linear 4s infinite alternate ;
+    /* I'm a Freelancer.| */
+}
+@keyframes typing {
+    0%{content: "";}
+    10%{content: "Si";}
+    20%{content: "Sim";}
+    30%{content: "Simo";}
+    40%{content: "Simon";}
+    50%{content: "Simone";}
+    60%{content: "Simone O";}
+    70%{content: "Simone Ol";}
+    80%{content: "Simone Oliv";}
+    90%{content: "Simone Olivi";}
+    100%{content: "Simone Olivia .|";}   
+}
+
+/* .home .containerr h1::after{
+    content: "";
+    animation: typingg 2s linear 4s infinite alternate ;
+      
+}
+@keyframes typingg {
+    0%{content: "";}
+    10%{content: "a ";}
+    20%{content: "a F";}
+    30%{content: "a Fre";}
+    40%{content: "a Fre";}
+    50%{content: "a Freel";}
+    60%{content: "a Freela";}
+    70%{content: "a Freela";}
+    80%{content: "a Freelan";}
+    90%{content: "a Freelance";}
+    100%{content: "a Freelancer.|";}   
+}
+ */
+
+
+
+.home .containerr p{
+    color: #dee3e4;
+}
+
+/* .home .container .home-txt{
+    position: relative;
+    z-index: 2;
+    
+} */
+/*         */
+.about .container h2{
+    font-size: 100px;
+        z-index: -1;
+        color: white;
+        font-weight: 600;
+        color: #dee3e4;
+        opacity: 0.4;
+
+}   
+.about .container h3{
+    font-size: 40px;
+}
+.about .container h3::after{
+    content: " ";
+    position: absolute;
+    background-color: #20c997;
+    width: 70px;
+    height: 2px;
+    left: 625px;
+    bottom: 2px;
+    
+}
+/*        */
+.about-content{
+
+}
+.about-content .container{
+
+overflow: hidden;
+}
+.about-content .container .about-txt{
+
+float: left;
+width: 70%;
+}
+.about-content .container .about-txt p{
+    font-size: 18px;
+color: #4c4d4d;
+    
+}
+.about-content .container .about-txt span{
+    color: #20c997 
+}
+.about-content .container .about-nam{
+    float: right;
+    width: 30%;
+}
+.about-content .container .about-nam button{
+    background-color: #20c997;
+    border-color: #20c997;
+    border-radius: 20px;
+    
+}
+.about-content .container .about-nam p{
+    color: black;
+    font-size: 20px;
+}
+.about-content .container .about-nam span{
+color: #4c4d4d;
+
+}
+.demo{
+    overflow: hidden;
+    width: 100%;
+}
+.demo .about-num {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center
+
+}
+.demo .about-num .num1 h5{
+    font-size: 40px;
+    color: #6c757d;
+}
+/*         */
+.what{
+    
+}
+.what .container{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-around;
+}
+.what .container .sec1{
+   
+
+    
+}
+.what .container .sec1 .secm{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.what .container .sec2 .secR{
+
+       display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.what .container i{
+   font-size: 30px;
+   width: 70px;
+   height: 70px;
+    margin-left: 15px;
+    color: #20c997 ;
+    background-color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    text-align: center;
+    margin-right: 20px;
+
+}
+.badge{
+    background-color: #20c997 !important;
+}
+.progress-bar{
+    background-color: #20c997;
+}
+/* PORTFOLIO */ 
+.PORTFOLIO {
+    background-color: #f8f9fa;
+
+
+}
+/* .PORTFOLIO .container .img1 .cover-img img{
+    position: relative;
+}
+.PORTFOLIO .container .coll{
+    
+    text-align: center;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+ 
+
+} 
+*/
+/*       */
+.client .container img{
+    width: 15%;
+}
+
+
+/*      */
+.container .coverr{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 95%;
+    bottom: 8px;
+    /* width: 100%; */
+    height: 100%;
+    /* padding-top: 100px; */
+    overflow: hidden;
+   
+    display: none;
+   transition: display 5s;
+
+   border-radius: 0.25rem;
+   color: #fff;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-top: 50%;
+    /* display: flex; 
+    justify-content: center;
+   align-items: center;
+   text-align: center;  */
+   /* display: flex; */
+   /* justify-content: center;
+   align-items: center;
+   text-align: center; */
+
+   /* position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.25rem;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s; */
+  
+}
+
+.PORTFOLIO .container .row .img11{
+   transition: all 1s;
+   overflow: hidden;
+
+}
+.PORTFOLIO .container .row .img11:hover .coverr{
+
+    display: block;
+  
+    width: 100%;
+   
+    
+}
+
+
+/* <!-- <div class="col-md-4">
+  <div class="img1 py-2 position-relative">
+
+      <img src="images/project-1.jpg" class="w-100" alt="">
+
+   <div class="coverr w-100 position-absolute  text-center  bg-danger">
+    <h4>project title</h4>
+    <p>catogry</p>
+   </div>
+     
+    
+   
+  </div> -->
+  <!-- <div class="img2 py-2">
+    <img src="images/project-4.jpg" class="w-100" alt="">
+    <h4>project title</h4>
+    <p>catogry</p>
+  </div> -->
+<!-- </div> --> */
+/*        */
+.contact{
+    /* background-color: #F8F9FA; */
+    /* padding: 30px 0;
+    background-color: #F8F9FA;
+    height: 70vh; */
+}
+.contact .container .row i{
+    color: #20c997;
+    margin: 5px 0;
+}
+.contact .container .row h6{
+    line-height: 28px;
+    color: rgb(76, 77, 77);
+
+}
+.contact .container .row button{
+    
+    margin: auto;
+    background-color: #20c997;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2.6rem;
+    font-weight: 500;
+    border-width: 2px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    border-radius: 50rem;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+    -webkit-box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+    margin-top: 1.5rem;
+    cursor: pointer;
+
+}
+/*  footer  */
+
+footer .container .para span{
+    transition: all 1s;
+}
+footer .container .para span:hover{
+    color: #20c997;
+}
